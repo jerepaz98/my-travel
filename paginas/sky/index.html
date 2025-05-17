@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Sky</title> <!--Nombrar segun categoria-->
+<!-- Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Main Stylesheet File -->
+<link href="styles/styla1.css" rel="stylesheet" type="text/css">
+<link href="styles/styla2.css" rel="stylesheet" type="text/css">
+<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Favicons -->
+<link href="img/favicon/flour.png" rel="icon">
+</head>
+
+<!-- =======================================================
+    Theme Name: My_Travels
+    Theme URL: 
+    Author: Jeremias Paz
+    License: Ahab&Co.©
+  ======================================================= -->
+
+
+<body>
+<!-- =================================== Header ========================================== -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="img/about00.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">My Travels</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">My Travels</h5>
+    <h3 class="w3-hide-medium w3-hide-small">The Sky</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="D:/Pragramacion/A%20-Practicas/MyTravels/index.html" class="w3-bar-item w3-button">Inicio</a>
+<!--<a href="#contact" class="w3-bar-item w3-button">Portfolio</a>-->
+    <a href="D:/Pragramacion/A%20-Practicas/Portafolio/index.html" target="_blank" class="w3-bar-item w3-button">Portfolio</a>
+  </div>
+</header>
+ 
+
+ <!--Welcome--> 
+  <br>
+  <br>
+<div class="w3-opacity" class="w3-clear"><p class="w3-center"><b>Bienvenidos a mi foro de Fotos "The Sky"</b></p></div>
+  <br>
+  <br>
+
+
+<!-- =================================== Photo Grid ========================================= -->
+<div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="img/si02.jpg" style="width:100%">
+    <img src="img/si09.jpg" style="width:100%">
+    <img src="img/si16.jpg" style="width:100%">
+    <img src="img/si11.jpg" style="width:100%">
+    <img src="img/si13.jpg" style="width:100%">
+    <img src="img/si22.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="img/si08.jpg" style="width:100%">
+    <img src="img/si14.jpg" style="width:100%">
+    <img src="img/si23.jpg" style="width:100%">
+    <img src="img/si07.jpg" style="width:100%">
+    <img src="img/si05.jpg" style="width:100%">
+    <img src="img/si27.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="img/si00.jpg" style="width:100%">
+    <img src="img/si15.jpg" style="width:100%">
+    <img src="img/si19.jpg" style="width:100%">
+    <img src="img/si21.jpg" style="width:100%">
+    <img src="img/si24.jpg" style="width:100%">
+    <img src="img/si26.jpg" style="width:100%">
+  </div>
+</div>
+<!-- End Page Content -->
+
+<!-- ==================================== Footer ========================================== -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <a href="#"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/photonature_ar/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <!--<i class="fa fa-snapchat w3-hover-opacity"></i>-->
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-camera w3-hover-opacity"></i>
+  <!--<i class="fa fa-linkedin w3-hover-opacity"></i>-->
+  <p class="w3-medium">Powered by <a href="D:/Pragramacion/A%20-Practicas/Portafolio/index.html" target="_blank" class="w3-hover-text-green">Ahab_&_Co.</a></p>
+</footer>
+
+
+<!-- ==================================== Style ========================================== -->
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+
+<!-- ==================================== Script ========================================== -->
+
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
